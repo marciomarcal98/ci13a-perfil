@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background: #19A1AE;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    text-align: center;
+}
+
+span, p {
+    color: #6B7082;
+}
+
+.cidade {
+    font-size: 14px;
+}
+
+p {
+    font-size: 18px;
+}
+
+strong {
+    color: #2E3349;
+}
+
+ul, li {
+    list-style: none;
+}
