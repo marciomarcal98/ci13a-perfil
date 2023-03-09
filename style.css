@@ -20,6 +20,7 @@ main {
     background: white;
     width: 350px;
     text-align: center;
+    border-radius: 15px;
 }
 
 span, p {
@@ -52,4 +53,19 @@ ul span {
 
 ul {
     display: flex;
+}
+
+.bg-imagem {
+    border-radius: 15px 15px 0 0;
+}
+
+.imagem-victor {
+    border-radius: 50%;
+    margin-inline: auto;
+    margin-top: -53px;
+    border: 5px solid #FFF;
+}
+
+img {
+    display: block;
 }
